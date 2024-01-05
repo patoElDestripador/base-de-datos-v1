@@ -4,11 +4,6 @@ if(localStorage.getItem('auth') == "si"){
   let tabla = document.getElementById("idContenedorDetabla");
 /*   let obtenerUsuario = JSON.parse(localStorage.getItem('usuario')).nick
   document.getElementById("nombreperfilusuario").innerText = (obtenerUsuario) */
-
-
-
-
-  
   function buscarUsuario(){
     let usuario = document.getElementById("idUsuarioInpBusqueda").value;
   
@@ -59,14 +54,14 @@ if(localStorage.getItem('auth') == "si"){
     for (let index = 0; index < usuarios.length; index++) {
       contenedorCards.innerHTML += `                    
       <div class="col-12 col-sm-5 col-md-5 col-lg-4 col-xl-2 mb-4 ms-5">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 20rem;">
           <div class="avatar-card">
             <img class="avatar-card-img" src="https://imgdb.net/storage/uploads/60cd0f9f76145fc6a1fd28332d0c1b9d7918bb5848a5956acec4e5e8cd783267.png" alt="perfil" class="avatar-card">
           </div>
           <h6 class="title">${usuarios[index].nick}</h6>
-          <h6 class="amount">${usuarios[index].puntuacionTotal}</h6>
+          <h6 class="amount">AKI VA EL TEXTO</h6>
           <div class="badge">
-            <span class="text-success-bg"> +6.85% </span>
+            <span class="text-success-bg"> ${usuarios[index].puntuacionTotal}</span>
             <span class="badge-text">Puntaje</span>
           </div>
         </div>
@@ -116,14 +111,19 @@ if(localStorage.getItem('auth') == "si"){
     </tr>
     `
   }
+
+  
+
+
+
+
+
 }else{
   cerrarSesion()
 }
-
 
 function cerrarSesion(){
   localStorage.removeItem('auth');
   localStorage.removeItem('usuario');
   location.href = "./login.html";
 }
-
