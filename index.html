@@ -71,7 +71,49 @@
                 <h2>Información Detallada</h2>
 
                 <div class="row " id="idContenedorDeCards">
+                    <div class="col-12 col-sm-5 col-md-5 col-lg-4 col-xl-3 mb-4 ms-5"  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card" style="width: 20rem;">
+                            <div class="avatar-card">
+                              <img class="avatar-card-img" src="https://imgdb.net/storage/uploads/60cd0f9f76145fc6a1fd28332d0c1b9d7918bb5848a5956acec4e5e8cd783267.png" alt="perfil" class="avatar-card">
+                            </div>
+                            <h6 class="title">${usuarios[index].nick}</h6>
+                            <h6 class="amount">AKI VA EL TEXTO</h6>
+                            <div class="badge">
+                              <span class="text-success-bg"> ${usuarios[index].puntuacionTotal}</span>
+                              <span class="badge-text text-dark">Puntaje</span>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="modal fade modal-xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalLabel">${usuarios[index].nick}</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                       
+                                    
+                                    nombre,texto,nick,genero,edad,fecha nacimiento,
 
+
+
+
+                                  </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-primary" >Html</button>
+                                  <button type="button" class="btn btn-primary" >pyhton</button>
+                                  <button type="button" class="btn btn-primary" >js</button>
+                                  <button type="button" class="btn btn-primary  " >Css</button>
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                  <!-- <button type="button" class="btn btn-primary">Editar usuario</button> -->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                 </div>
 
                 <h2>Listado</h2>
@@ -107,6 +149,7 @@
             </footer>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="./nuevaBase.json"></script>
     <script src="./main.js"></script>
 </body>
