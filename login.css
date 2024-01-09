@@ -7,7 +7,7 @@
     }
     body {
     font-family: Arial;
-    background-color: #a3ceed;
+    background-color: #2F3651;
     padding: 50px;
     }
     .login {
@@ -15,14 +15,14 @@
     width: 300px;
     }
     .login-screen {
-    background-color: #FFF;
+    background-color: #24293E;
     padding: 20px;
     border-radius: 5px
     }
     
     .app-title {
     text-align: center;
-    color: #777;
+    color: #ECF0F1;
     }
     
     .login-form {
@@ -45,14 +45,14 @@
     }
     
     input:focus {
-    border: 2px solid #3498DB;
+    border: 2px solid #8EBBFF;
     box-shadow: none;
     }
-    
+
     .btn {
       border: 2px solid transparent;
-      background: #727CF5;
-      color: #ffffff;
+      background: #8EBBFF;
+      color: #ECF0F1;
       font-size: 16px;
       line-height: 25px;
       padding: 10px 0;
@@ -73,7 +73,7 @@
     
     .login-link {
       font-size: 12px;
-      color: #444;
+      color: #ECF0F1;
       display: block;
         margin-top: 12px;
     }

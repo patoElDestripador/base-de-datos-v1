@@ -1,0 +1,1714 @@
+var usuarios = [
+    {
+     "idUser": "05042006",
+     "nombre": "Alejandro Ruíz",
+     "nick": "alejodraven",
+     "img": "",
+     "fechaNacimiento": "05-04-2006",
+     "genero": "Gato",
+     "audifonos": "Si",
+     "ambiente": "Ambos",
+     "pasionTecnologia": "Facilidad que da",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Equipo",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "No",
+     "python": 4,
+     "js": 6,
+     "css": 8,
+     "html": 7,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "03062001",
+     "nombre": "Andres patiño",
+     "nick": "Pato El Destripador",
+     "img": "",
+     "fechaNacimiento": "03-06-2001",
+     "genero": "helicoptero apache",
+     "audifonos": "Si",
+     "ambiente": "Ambos",
+     "pasionTecnologia": "innovacion",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Solitario",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "Si",
+     "python": 8,
+     "js": 10,
+     "css": 7,
+     "html": 10,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "28072004",
+     "nombre": "Angeli Mendoza",
+     "nick": "AngeCrafts",
+     "img": "",
+     "fechaNacimiento": "28-07-2004",
+     "genero": "Femenino",
+     "audifonos": "No",
+     "ambiente": "Solitario",
+     "pasionTecnologia": "Capacidad de invocación",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Equipo",
+     "resuelve": "Si",
+     "organizadoMetodico": "Organizado",
+     "toleranciaAFrustracion": "No",
+     "python": 6,
+     "js": 5,
+     "css": 8,
+     "html": 7,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "16052005",
+     "nombre": "Daniel esteban Hurtado ",
+     "nick": "DanielUrtCodes",
+     "img": "",
+     "fechaNacimiento": "16-05-2005",
+     "genero": "Masculino",
+     "audifonos": "No",
+     "ambiente": "Solitario",
+     "pasionTecnologia": "innovacion",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Equipo",
+     "resuelve": "No",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "Si",
+     "python": 6,
+     "js": 4,
+     "css": 5,
+     "html": 7,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "29102005",
+     "nombre": "Daniel Montiel",
+     "nick": "DanCraftMontiel",
+     "img": "",
+     "fechaNacimiento": "29-10-2005",
+     "genero": "Auto",
+     "audifonos": "No",
+     "ambiente": "Ambos",
+     "pasionTecnologia": "mecatronica",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Solitario",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "Si",
+     "python": 7,
+     "js": 8,
+     "css": 8,
+     "html": 9,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "05091991",
+     "nombre": "Daniel Torres",
+     "nick": "DanInnovator",
+     "img": "",
+     "fechaNacimiento": "05-09-1991",
+     "genero": "Masculino",
+     "audifonos": "Si",
+     "ambiente": "Ambos",
+     "pasionTecnologia": "la plata",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Ambos",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "No",
+     "python": 6,
+     "js": 5,
+     "css": 3,
+     "html": 10,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "18102002",
+     "nombre": "David monterosa",
+     "nick": "MonteroCoder",
+     "img": "",
+     "fechaNacimiento": "18-10-2002",
+     "genero": "Masculino",
+     "audifonos": "Si",
+     "ambiente": "Solitario",
+     "pasionTecnologia": "innovacion",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Solitario",
+     "resuelve": "Si",
+     "organizadoMetodico": "Organizado",
+     "toleranciaAFrustracion": "Si",
+     "python": 7,
+     "js": 6,
+     "css": 6,
+     "html": 8,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "13032005",
+     "nombre": "David Rico",
+     "nick": "DaveInvents",
+     "img": "",
+     "fechaNacimiento": "13-03-2005",
+     "genero": "Masculino",
+     "audifonos": "No",
+     "ambiente": "Rodeado",
+     "pasionTecnologia": "diseño",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Ambos",
+     "resuelve": "Si",
+     "organizadoMetodico": "Organizado",
+     "toleranciaAFrustracion": "Si",
+     "python": 4,
+     "js": 7,
+     "css": 4,
+     "html": 10,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "15092001",
+     "nombre": "Dina Martinez",
+     "nick": "DinaCraftsWorld",
+     "img": "",
+     "fechaNacimiento": "15-09-2001",
+     "genero": "Femenino",
+     "audifonos": "SI",
+     "ambiente": "Ambos",
+     "pasionTecnologia": "seguridad",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Equipo",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "No",
+     "python": 9,
+     "js": 5,
+     "css": 10,
+     "html": 10,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "18042005",
+     "nombre": "Duvan Morales",
+     "nick": "DuvJourneyCoder",
+     "img": "",
+     "fechaNacimiento": "18-04-2005",
+     "genero": "Masculino",
+     "audifonos": "Si",
+     "ambiente": "Solitario",
+     "pasionTecnologia": "descrubrimiento",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Equipo",
+     "resuelve": "Si",
+     "organizadoMetodico": "Organizado",
+     "toleranciaAFrustracion": "No",
+     "python": 7,
+     "js": 7,
+     "css": 8,
+     "html": 51,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "23041991",
+     "nombre": "Duvian Lopez",
+     "nick": "dubianElCuchacho",
+     "img": "",
+     "fechaNacimiento": "23-04-1991",
+     "genero": "Masculino",
+     "audifonos": "Si",
+     "ambiente": "Rodeado",
+     "pasionTecnologia": "Avance",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Ambos",
+     "resuelve": "No",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "No",
+     "python": 6,
+     "js": 8,
+     "css": 7,
+     "html": 7,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "09102005",
+     "nombre": "Johan Ríos",
+     "nick": "JohanPioneer",
+     "img": "",
+     "fechaNacimiento": "09-10-2005",
+     "genero": "Masculino",
+     "audifonos": "Si",
+     "ambiente": "Solitario",
+     "pasionTecnologia": "La gama de posibilidades",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Equipo",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "Si",
+     "python": 7,
+     "js": 7,
+     "css": 90,
+     "html": 95,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "29042005",
+     "nombre": "Jose Osorio",
+     "nick": "JoseSolvesIt",
+     "img": "",
+     "fechaNacimiento": "29-04-2005",
+     "genero": "Masculino",
+     "audifonos": "Si",
+     "ambiente": "Solitario",
+     "pasionTecnologia": "descrubrimiento",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Equipo",
+     "resuelve": "Si",
+     "organizadoMetodico": "Organizado",
+     "toleranciaAFrustracion": "Si",
+     "python": 8,
+     "js": 3,
+     "css": 8,
+     "html": 10,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "31052002",
+     "nombre": "Juan David Usuga",
+     "nick": "juandavid deklan",
+     "img": "",
+     "fechaNacimiento": "31-05-2002",
+     "genero": "Masculino",
+     "audifonos": "Si",
+     "ambiente": "Rodeado",
+     "pasionTecnologia": "Soluciones",
+     "curiosidad": "No",
+     "equipoOSolitario": "Solitario",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "No",
+     "python": -10,
+     "js": 7,
+     "css": 8,
+     "html": 10,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "01071995",
+     "nombre": "Juan Gutierrez",
+     "nick": "JuanDreamer",
+     "img": "",
+     "fechaNacimiento": "01-07-1995",
+     "genero": "Masculino",
+     "audifonos": "No",
+     "ambiente": "Rodeado",
+     "pasionTecnologia": "innovacion",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Equipo",
+     "resuelve": "Si",
+     "organizadoMetodico": "Organizado",
+     "toleranciaAFrustracion": "Si",
+     "python": 7,
+     "js": 5,
+     "css": 8,
+     "html": 8,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "14111987",
+     "nombre": "Juan Pablo Giraldo",
+     "nick": "juan Pablo Junior",
+     "img": "",
+     "fechaNacimiento": "14-11-1987",
+     "genero": "Masculino",
+     "audifonos": "No",
+     "ambiente": "Ambos",
+     "pasionTecnologia": "funcionalidad",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Equipo",
+     "resuelve": "Si",
+     "organizadoMetodico": "Organizado",
+     "toleranciaAFrustracion": "Si",
+     "python": 7,
+     "js": 10,
+     "css": 7,
+     "html": 10,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "06082005",
+     "nombre": "Laura Velásquez",
+     "nick": "LauraVegetarian",
+     "img": "",
+     "fechaNacimiento": "06-08-2005",
+     "genero": "Femenino",
+     "audifonos": "Si",
+     "ambiente": "Rodeado",
+     "pasionTecnologia": "La plata y el avance",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Ambos",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "No",
+     "python": 5,
+     "js": 6,
+     "css": 7,
+     "html": 8,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "08102007",
+     "nombre": "Manuela Madrid",
+     "nick": "ManuScriptor",
+     "img": "",
+     "fechaNacimiento": "08-10-2007",
+     "genero": "Femenino",
+     "audifonos": "No",
+     "ambiente": "Rodeado",
+     "pasionTecnologia": "todo",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Ambos",
+     "resuelve": "No",
+     "organizadoMetodico": "Organizado",
+     "toleranciaAFrustracion": "Si",
+     "python": 6,
+     "js": 3,
+     "css": 6,
+     "html": 6,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "29122004",
+     "nombre": "Mariana Bedoya",
+     "nick": "MariCreatesWorld",
+     "img": "",
+     "fechaNacimiento": "29-12-2004",
+     "genero": "Femenino",
+     "audifonos": "No",
+     "ambiente": "Solitario",
+     "pasionTecnologia": "diseño",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Ambos",
+     "resuelve": "Si",
+     "organizadoMetodico": "Organizado",
+     "toleranciaAFrustracion": "Si",
+     "python": 7,
+     "js": 6,
+     "css": 10,
+     "html": 10,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "17031995",
+     "nombre": "Mateo skormjf",
+     "nick": "mateo skormjf",
+     "img": "",
+     "fechaNacimiento": "17-03-1995",
+     "genero": "Arrecho",
+     "audifonos": "No",
+     "ambiente": "rodeado",
+     "pasionTecnologia": "Ia",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Solitario",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "Si",
+     "python": 7,
+     "js": 7,
+     "css": 8,
+     "html": 8,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "17031992",
+     "nombre": "Santiago Alonso Cadavid Rotavista",
+     "nick": "SantiWorldVista",
+     "img": "",
+     "fechaNacimiento": "17-03-1992",
+     "genero": "Masculino",
+     "audifonos": "Si",
+     "ambiente": "Solitario",
+     "pasionTecnologia": "Lo mucho que puede ayudar ",
+     "curiosidad": "Si ",
+     "equipoOSolitario": "Solitario",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "Si",
+     "python": 4,
+     "js": 3,
+     "css": 5,
+     "html": 4,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "17101992",
+     "nombre": "Santiago Santo",
+     "nick": "SantCoder",
+     "img": "",
+     "fechaNacimiento": "17-10-1992",
+     "genero": "Masculino",
+     "audifonos": "Si",
+     "ambiente": "Solitario",
+     "pasionTecnologia": "innovacion",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Equipo",
+     "resuelve": "Si",
+     "organizadoMetodico": "Organizado",
+     "toleranciaAFrustracion": "Si",
+     "python": 4,
+     "js": 6,
+     "css": 8,
+     "html": 10,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "11092000",
+     "nombre": "Santiago Tobon",
+     "nick": "SantiDiscover",
+     "img": "",
+     "fechaNacimiento": "11-09-2000",
+     "genero": "helicoptero apache",
+     "audifonos": "Si",
+     "ambiente": "Rodeado",
+     "pasionTecnologia": "la rv",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Equipo",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "Si",
+     "python": 3,
+     "js": 4,
+     "css": 5,
+     "html": 8,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "11092000",
+     "nombre": "Sebastian Arboleda",
+     "nick": "sebastianElMono",
+     "img": "",
+     "fechaNacimiento": "11-09-2000",
+     "genero": "Masculino",
+     "audifonos": "No",
+     "ambiente": "Ambos",
+     "pasionTecnologia": "la gama de posibilidades que se pueden tener y su adaptabilidad",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Ambos",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "Si",
+     "python": 3,
+     "js": 5,
+     "css": 9,
+     "html": 7,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "29032007",
+     "nombre": "Sebastian Ramirez",
+     "nick": "SebTechWizard",
+     "img": "",
+     "fechaNacimiento": "29-03-2007",
+     "genero": "Masculino",
+     "audifonos": "No",
+     "ambiente": "Solitario",
+     "pasionTecnologia": "todo",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Solitario",
+     "resuelve": "No",
+     "organizadoMetodico": "Organizado",
+     "toleranciaAFrustracion": "No",
+     "python": 10,
+     "js": 8,
+     "css": 5,
+     "html": 50,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "20011995",
+     "nombre": "Stewin Barraza Pereira",
+     "nick": "StewinCodePioneer",
+     "img": "",
+     "fechaNacimiento": "20-01-1995",
+     "genero": "Masculino",
+     "audifonos": "Si",
+     "ambiente": "Ambos ",
+     "pasionTecnologia": "Es mágica ",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Equipo",
+     "resuelve": "Si",
+     "organizadoMetodico": "Organizado",
+     "toleranciaAFrustracion": "No",
+     "python": 4,
+     "js": 5,
+     "css": 7,
+     "html": 8,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "22091994",
+     "nombre": "Valentina Mesa",
+     "nick": "ValInventsWorld",
+     "img": "",
+     "fechaNacimiento": "22-09-1994",
+     "genero": "Femenino",
+     "audifonos": "Si",
+     "ambiente": "Rodeado",
+     "pasionTecnologia": "innovacion",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Equipo",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "No",
+     "python": 9,
+     "js": 7,
+     "css": 6,
+     "html": 7,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "10081993",
+     "nombre": "Victor Armando Marin Arredondo",
+     "nick": "VictorDevMarin",
+     "img": "",
+     "fechaNacimiento": "10-08-1993",
+     "genero": "Masculino",
+     "audifonos": "Si",
+     "ambiente": "Solitario",
+     "pasionTecnologia": "Innovacion",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Ambos",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "Si",
+     "python": 5,
+     "js": 5,
+     "css": 7,
+     "html": 10,
+     "puntuacionTotal": 0
+    },
+    {
+     "idUser": "15011984",
+     "nombre": "Vladimir garcia",
+     "nick": "VladInventsCode",
+     "img": "",
+     "fechaNacimiento": "15-01-1984",
+     "genero": "Masculino",
+     "audifonos": "Si",
+     "ambiente": "Solitario",
+     "pasionTecnologia": "ilimitado",
+     "curiosidad": "Si",
+     "equipoOSolitario": "Solitario",
+     "resuelve": "Si",
+     "organizadoMetodico": "Metodico",
+     "toleranciaAFrustracion": "Si",
+     "python": 7,
+     "js": 5,
+     "css": 7,
+     "html": 7,
+     "puntuacionTotal": 0
+    }
+   ]
+var enlaces = [
+    {
+        "lenguaje":"Js",
+        "textoLv1":"",
+        "textoLv2":"",
+        "textoLv3":"",
+        "linkVideoLv1":"https://www.youtube.com/watch?v=QoC4RxNIs5M&ab_channel=HolaMundo",
+        "linkVideoLv2":"https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha",
+        "linkVideoLv3":"https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha",
+    },
+    {
+        "lenguaje":"Python",
+        "textoLv1":"",
+        "textoLv2":"",
+        "textoLv3":"",
+        "linkVideoLv1":"https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo",
+        "linkVideoLv2":"https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo",
+        "linkVideoLv3":"https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo",
+    },
+    {
+        "lenguaje":"Html",
+        "textoLv1":"",
+        "textoLv2":"",
+        "textoLv3":"",
+        "linkVideoLv1":"https://www.youtube.com/watch?v=3nYLTiY5skU&ab_channel=midulive",
+        "linkVideoLv2":"https://www.youtube.com/watch?v=3nYLTiY5skU&ab_channel=midulive",
+        "linkVideoLv3":"https://www.youtube.com/watch?v=3nYLTiY5skU&ab_channel=midulive",
+    },
+    {
+        "lenguaje":"Css",
+        "textoLv1":"",
+        "textoLv2":"",
+        "textoLv3":"",
+        "linkVideoLv1":"https://www.youtube.com/watch?v=hrxjBqZWsb0&ab_channel=midulive",
+        "linkVideoLv2":"https://www.youtube.com/watch?v=hrxjBqZWsb0&ab_channel=midulive",
+        "linkVideoLv3":"https://www.youtube.com/watch?v=hrxjBqZWsb0&ab_channel=midulive",
+    },
+    {
+        "lenguaje":"TS",
+        "textoLv1":"",
+        "textoLv2":"",
+        "textoLv3":"",
+        "linkVideoLv1":"https://www.youtube.com/watch?v=UTA5bykCx2c&ab_channel=SergieCode",
+        "linkVideoLv2":"https://www.youtube.com/watch?v=UTA5bykCx2c&ab_channel=SergieCode",
+        "linkVideoLv3":"https://www.youtube.com/watch?v=UTA5bykCx2c&ab_channel=SergieCode",
+    },
+    {
+        "lenguaje":"Db Sql",
+        "textoLv1":"",
+        "textoLv2":"",
+        "textoLv3":"",
+        "linkVideoLv1":"",
+        "linkVideoLv2":"",
+        "linkVideoLv3":"",
+    },
+]
+
+var usuarios2 = [
+    {
+      idUser: '05042006',
+      nombre: 'Alejandro Ruíz',
+      nick: 'alejodraven',
+      img: './img/alejodraven',
+      genero: 'Gato',
+      audifonos: 2,
+      ambiente: 1,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 1,
+      python: 2,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 23
+    },
+    {
+      idUser: '03062001',
+      nombre: 'Andres patiño',
+      nick: 'Pato El Destripador',
+      img: './img/Pato El Destripador',
+      genero: 'helicoptero apache',
+      audifonos: 2,
+      ambiente: 1,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 3,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 26
+    },
+    {
+      idUser: '28072004',
+      nombre: 'Angeli Mendoza',
+      nick: 'AngeCrafts',
+      img: './img/AngeCrafts',
+      genero: 'Femenino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 1,
+      python: 2,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 24
+    },
+    {
+      idUser: '16052005',
+      nombre: 'Daniel esteban Hurtado ',
+      nick: 'DanielUrtCodes',
+      img: './img/DanielUrtCodes',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 1,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 2,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 2,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 23
+    },
+    {
+      idUser: '29102005',
+      nombre: 'Daniel Montiel',
+      nick: 'DanCraftMontiel',
+      img: './img/DanCraftMontiel',
+      genero: 'Auto',
+      audifonos: 2,
+      ambiente: 1,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 3,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 26
+    },
+    {
+      idUser: '05091991',
+      nombre: 'Daniel Torres',
+      nick: 'DanInnovator',
+      img: './img/DanInnovator',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 1,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 1,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 1,
+      python: 2,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 0,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=QoC4RxNIs5M&ab_channel=HolaMundo'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 19
+    },
+    {
+      idUser: '18102002',
+      nombre: 'David monterosa',
+      nick: 'MonteroCoder',
+      img: './img/MonteroCoder',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 2,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 25
+    },
+    {
+      idUser: '13032005',
+      nombre: 'David Rico',
+      nick: 'DaveInvents',
+      img: './img/DaveInvents',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 1,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 2,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 3,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      css: 2,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 24
+    },
+    {
+      idUser: '15092001',
+      nombre: 'Dina Martinez',
+      nick: 'DinaCraftsWorld',
+      img: './img/DinaCraftsWorld',
+      genero: 'Femenino',
+      audifonos: 2,
+      ambiente: 1,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 1,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 24
+    },
+    {
+      idUser: '18042005',
+      nombre: 'Duvan Morales',
+      nick: 'DuvJourneyCoder',
+      img: './img/DuvJourneyCoder',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 1,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 3,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 26
+    },
+    {
+      idUser: '23041991',
+      nombre: 'Duvian Lopez',
+      nick: 'dubianElCuchacho',
+      img: './img/dubianElCuchacho',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 1,
+      resuelve: 1,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 1,
+      python: 2,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 3,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 23
+    },
+    {
+      idUser: '09102005',
+      nombre: 'Johan Ríos',
+      nick: 'JohanPioneer',
+      img: './img/JohanPioneer',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 3,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 27
+    },
+    {
+      idUser: '29042005',
+      nombre: 'Jose Osorio',
+      nick: 'JoseSolvesIt',
+      img: './img/JoseSolvesIt',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 0,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=QoC4RxNIs5M&ab_channel=HolaMundo'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 24
+    },
+    {
+      idUser: '31052002',
+      nombre: 'Juan David Usuga',
+      nick: 'juandavid deklan',
+      img: './img/juandavid deklan',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 1,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 1,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 3,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 25
+    },
+    {
+      idUser: '01071995',
+      nombre: 'Juan Gutierrez',
+      nick: 'JuanDreamer',
+      img: './img/JuanDreamer',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 26
+    },
+    {
+      idUser: '14111987',
+      nombre: 'Juan Pablo Giraldo',
+      nick: 'juan Pablo Junior',
+      img: './img/juan Pablo Junior',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 1,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 3,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 26
+    },
+    {
+      idUser: '06082005',
+      nombre: 'Laura Velásquez',
+      nick: 'LauraVegetarian',
+      img: './img/LauraVegetarian',
+      genero: 'Femenino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 1,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 1,
+      python: 2,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 23
+    },
+    {
+      idUser: '08102007',
+      nombre: 'Manuela Madrid',
+      nick: 'ManuScriptor',
+      img: './img/ManuScriptor',
+      genero: 'Femenino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 1,
+      curiosidad: 2,
+      equipoOSolitario: 1,
+      resuelve: 1,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 2,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 0,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=QoC4RxNIs5M&ab_channel=HolaMundo'
+      },
+      css: 2,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      html: 2,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 18
+    },
+    {
+      idUser: '29122004',
+      nombre: 'Mariana Bedoya',
+      nick: 'MariCreatesWorld',
+      img: './img/MariCreatesWorld',
+      genero: 'Femenino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 1,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 25
+    },
+    {
+      idUser: '17031995',
+      nombre: 'Mateo skormjf',
+      nick: 'mateo skormjf',
+      img: './img/mateo skormjf',
+      genero: 'Arrecho',
+      audifonos: 2,
+      ambiente: 1,
+      pasionTecnologia: 1,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 3,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 25
+    },
+    {
+      idUser: '17031992',
+      nombre: 'Santiago Alonso Cadavid Rotavista',
+      nick: 'SantiWorldVista',
+      img: './img/SantiWorldVista',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 1,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 2,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 0,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=QoC4RxNIs5M&ab_channel=HolaMundo'
+      },
+      css: 2,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      html: 2,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 20
+    },
+    {
+      idUser: '17101992',
+      nombre: 'Santiago Santo',
+      nick: 'SantCoder',
+      img: './img/SantCoder',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 2,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 25
+    },
+    {
+      idUser: '11092000',
+      nombre: 'Santiago Tobon',
+      nick: 'SantiDiscover',
+      img: './img/SantiDiscover',
+      genero: 'helicoptero apache',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 0,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 2,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 22
+    },
+    {
+      idUser: '11092000',
+      nombre: 'Sebastian Arboleda',
+      nick: 'sebastianElMono',
+      img: './img/sebastianElMono',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 1,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 1,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 0,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 21
+    },
+    {
+      idUser: '29032007',
+      nombre: 'Sebastian Ramirez',
+      nick: 'SebTechWizard',
+      img: './img/SebTechWizard',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 1,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 1,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 1,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 3,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      css: 2,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 23
+    },
+    {
+      idUser: '20011995',
+      nombre: 'Stewin Barraza Pereira',
+      nick: 'StewinCodePioneer',
+      img: './img/StewinCodePioneer',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 1,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 1,
+      python: 2,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 23
+    },
+    {
+      idUser: '22091994',
+      nombre: 'Valentina Mesa',
+      nick: 'ValInventsWorld',
+      img: './img/ValInventsWorld',
+      genero: 'Femenino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 1,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 3,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      css: 2,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 25
+    },
+    {
+      idUser: '10081993',
+      nombre: 'Victor Armando Marin Arredondo',
+      nick: 'VictorDevMarin',
+      img: './img/VictorDevMarin',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 1,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 2,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 24
+    },
+    {
+      idUser: '15011984',
+      nombre: 'Vladimir garcia',
+      nick: 'VladInventsCode',
+      img: './img/VladInventsCode',
+      genero: 'Masculino',
+      audifonos: 2,
+      ambiente: 2,
+      pasionTecnologia: 2,
+      curiosidad: 2,
+      equipoOSolitario: 2,
+      resuelve: 2,
+      organizadoMetodico: 1,
+      toleranciaAFrustracion: 2,
+      python: 3,
+      recomendacionPython: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=tQZy0U8s9LY&ab_channel=HolaMundo'
+      },
+      js: 2,
+      recomendacionJs: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=C86JvqET61A&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=25&ab_channel=jonmircha'
+      },
+      css: 3,
+      recomendacionCss: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      html: 3,
+      recomendacionHtml: {
+        texto: '',
+        links: 'https://www.youtube.com/watch?v=m7AgxJSCMVw&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=46&ab_channel=jonmircha'
+      },
+      puntuacionTotal: 26
+    }
+  ]
