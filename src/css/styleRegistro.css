@@ -1,0 +1,11 @@
+body{
+  background: #2F3651;
+}
+.container{
+    margin-top: 4em;
+}
+.row-2{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}

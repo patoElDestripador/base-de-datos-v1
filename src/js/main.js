@@ -1,5 +1,4 @@
 if(localStorage.getItem('auth') == "si"){
-  let arrayDeBusqueda = []
   let contenedorCards = document.getElementById("idContenedorDeCards");
   let tabla = document.getElementById("idContenedorDetabla");
 /*   let obtenerUsuario = JSON.parse(localStorage.getItem('usuario')).nick
@@ -8,22 +7,13 @@ if(localStorage.getItem('auth') == "si"){
     let usuario = document.getElementById("idUsuarioInpBusqueda").value;
   
     if(!usuario){
-      arrayDeBusqueda = [];
       contenedorCards.innerHTML = "";
     }else{
-      usuarios.map(e=> {
-  
-        if(e.nombre.toLowerCase().startsWith(usuario.toLowerCase())){
-          console.log(e.nombre.toLowerCase())
-          console.log(usuario.toLowerCase())
-          let validarExistencia = arrayDeBusqueda.findIndex(elemet => elemet.nombre.toLowerCase() == e.nombre.toLowerCase())
-          if(validarExistencia == -1){
-            arrayDeBusqueda.push(e)
-          }else if(validarExistencia != -1 && arrayDeBusqueda.length != 1) {
-            arrayDeBusqueda = [];
-          }
-        }
-      })
+
+      let arrayDeBusqueda = usuarios.filter(user => {
+        usuario = usuario.toLowerCase()
+        return user.nombre.toLowerCase().startsWith(usuario) || user.genero.toLowerCase().startsWith(usuario) ;
+      });
       contenedorCards.innerHTML="";
       for (let index = 0; index < arrayDeBusqueda.length; index++) {
         contenedorCards.innerHTML += `                    
@@ -41,13 +31,7 @@ if(localStorage.getItem('auth') == "si"){
           </div>
         </div>`
       }
-  
-  
     }
-  
-  
-  
-  
   }
   function listarTodos(){
     contenedorCards.innerHTML = "";
@@ -96,6 +80,7 @@ if(localStorage.getItem('auth') == "si"){
     }
   
   }
+
   document.getElementById("idUsuarioInpBusqueda").addEventListener("keypress", e=>{
     addEventListener("keyup",e=>{
       buscarUsuario()
@@ -121,7 +106,6 @@ if(localStorage.getItem('auth') == "si"){
 }else{
   cerrarSesion()
 }
-
 function cerrarSesion(){
   localStorage.removeItem('auth');
   localStorage.removeItem('usuario');

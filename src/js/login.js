@@ -5,7 +5,7 @@ function validarInfo(){
     if(username == "admin" && password == "admin" || username == usuarios[val].nick && password == usuarios[val].idUser){
         localStorage.setItem('usuario', JSON.stringify(usuarios[val]?usuarios[val]:"admin"))
         localStorage.setItem('auth',"si");
-        location.href = "./index.html";
+        location.href = "/src/otro.html";
     }else{
         alert("El correo y la contraseña no coinciden");
     }
