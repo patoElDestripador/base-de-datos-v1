@@ -5,7 +5,7 @@ if(localStorage.getItem('auth') == "si"){
   document.getElementById("nombreperfilusuario").innerText = (obtenerUsuario) */
   function buscarUsuario(){
     let usuario = document.getElementById("idUsuarioInpBusqueda").value;
-  
+    let saludo = "hola";
     if(!usuario){
       contenedorCards.innerHTML = "";
     }else{
